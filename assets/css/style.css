@@ -1,0 +1,2717 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    padding: 10px 115px;
+}
+button {
+    cursor: pointer;
+}
+section {
+    overflow-x: clip;
+    overflow-y: visible;
+}
+
+
+
+
+/* first page styles starts */
+
+
+/* header styles */
+header {
+    box-shadow: 0px 4px 4px 0px #00000024;
+}
+header .overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000085;
+    z-index: 10;
+    display: none;
+}
+header .overlay.active {
+    display: block;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container ul {
+    display: flex;
+    align-items: center;
+}
+header .container ul li {
+    margin: 0 16px;
+}
+header .container ul li a {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header .container .headerRight {
+    display: flex;
+    align-items: center;
+}
+header .container .headerRight button {
+    width: 227px;
+    height: 50px;
+    background-color: #E2001C;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+header .container .headerRight i {
+    font-size: 30px;
+    margin-left: 20px;
+    display: none;
+}
+/* header styles ends */
+
+
+
+/* banner styles */
+.banner {
+    height: 900px;
+    padding: 160px 0;
+    background: linear-gradient(90deg, rgba(13, 1, 3, 0.43) 89.02%, rgba(226, 0, 28, 0) 100%), url(../images/banner-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner .container h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.banner .container p {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner .container p span {
+    color: #E2001C;
+}
+/* banner styles ends */
+
+
+
+
+/* consultation styles */
+.consultation {
+    padding: 80px 0;
+}
+.consultation .container .consultationHeading {
+    max-width: 820px;
+    margin: 0 auto;
+    margin-bottom: 115px;
+    text-align: center;
+}
+.consultation .container .consultationHeading span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #E2001C;
+}
+.consultation .container .consultationHeading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.consultation .container .consultationHeading p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    margin-bottom: 50px;
+}
+.consultation .container .consultationHeading p span {
+    color: #E2001C;
+}
+.consultation .container .consultationHeading h3 {
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+.consultation .container .consultationHeading h3 span {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    font-style: normal;
+}
+.consultation .container .consultationHeading button {
+    width: 227px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #E2001C;
+    border: none;
+    border-radius: 5px;
+}
+.consultation .container .consultationContent {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.consultation .container .consultationContent .consultLeft {
+    width: calc(50% - 40px);
+    height: 724px;
+    background: linear-gradient(rgba(242, 102, 85, 0.35), rgba(242, 102, 85, 0.35) 59%), url(../images/consultation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.consultation .container .consultationContent .consultRight {
+    width: calc(50% - 25px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.consultation .container .consultationContent .consultRight .consultSingle {
+    width: calc(50% - 25px);
+    height: 335px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135.55deg, #E2001C 3.01%, #F26655 96.16%);
+    color: #F5F5F5;
+    font-size: 32px;
+    font-weight: 700;
+}
+/* consultation styles ends */
+
+
+
+
+
+/* work styles */
+.work {
+    padding: 100px 0;
+}
+.work .container .workHeading {
+    margin-bottom: 90px;
+    text-align: center;
+}
+.work .container .workHeading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.work .container .workHeading p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.work .container .workHeading p span {
+    font-weight: 700;
+    color: #E2001C;
+}
+
+.work .container .workWrap .swiper-wrapper {
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.work .container .workWrap .singleWork {
+    /* width: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+}
+.work .container .workWrap .singleWork:nth-child(2) {
+    right: 38px;
+}
+.work .container .workWrap .singleWork:nth-child(4) {
+    left: 38px;
+}
+/* work styles ends
+
+
+
+
+
+
+/* sponsor styles */
+.sponsor {
+    padding: 80px 0;
+    padding-top: 50px;
+}
+.sponsor .container img {
+    width: 100%;
+}
+/* sponsor styles ends */
+
+
+
+
+/* info styles */
+.info .container .infoSingle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.info .container .infoSingle:last-child {
+    margin-top: 220px;
+}
+.info .container .infoSingle .infoText {
+    width: 50%;
+    padding-right: 150px;
+}
+.info .container .infoSingle:nth-child(2) .infoText {
+    padding-right: 0;
+    padding-left: 100px;
+}
+.info .container .infoSingle .infoText h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.info .container .infoSingle .infoText p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
+}
+.info .container .infoSingle .infoText button {
+    width: 245px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E2001C;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info .container .infoSingle .infoImg {
+    width: 50%;
+}
+.info .container .infoSingle .infoImg.swiper {
+    overflow-x: clip;
+    overflow-y: visible;
+}
+.info .container .infoSingle .infoImg img {
+    width: 100%;
+}
+
+.info .container .infoSingle:last-child .infoImg {
+    width: 493px;
+}
+.info .container .infoSingle:last-child .infoImg img {
+    width: unset;
+    max-width: 100%;
+}
+.info .container .infoSingle .infoImg .swiper-pagination {
+    bottom: -40px !important;
+}
+.info .container .infoSingle .infoImg .swiper-pagination .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+}
+.info .container .infoSingle .infoImg .swiper-pagination .swiper-pagination-bullet-active{
+    background: #616161;
+}
+/* info styles ends */
+
+
+
+
+/* stage styles */
+.stage {
+    padding: 120px 0;
+    position: relative;
+}
+/* .stage .redBorderImg {
+    width: calc(100% - 230px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+.stage .container .stageContent {
+    width: calc(100% - 170px);
+    height: 620px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    margin: 0 auto;
+}
+.stage .container .stageContent::before {
+    width: 100%;
+    height: calc(100% + 60px);
+    border: 4px solid #E2001C;
+    content: '';
+    position: absolute;
+    top: -110px;
+    left: -90px;
+    z-index: -1;
+}
+.stage .container .stageContent::after {
+    width: 100%;
+    height: calc(100% + 60px);
+    border: 4px solid #E2001C;
+    content: '';
+    position: absolute;
+    bottom: -110px;
+    right: -90px;
+    z-index: -1;
+}
+.stage .container .mySwiper4 {
+    height: 100%;
+    overflow-y: visible;
+    overflow-x: clip;
+}
+.stage .container .mySwiper4 .swiper-pagination {
+    /* bottom: -40px !important; */
+}
+.stage .container .mySwiper4 .swiper-pagination .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: #D9D9D9;
+    opacity: 1;
+}
+.stage .container .mySwiper4 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff;
+}
+.stage .container .stageContent .singleStage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.stage .container .stageContent .singleStage .singleStageInner {
+    width: 100%;
+    max-width: 675px;
+    margin: 0 auto;
+    text-align: center;
+}
+.stage .container .stageContent .singleStage .singleStageInner img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.stage .container .stageContent .singleStage .singleStageInner h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+}
+.stage .container .stageContent .singleStage .singleStageInner p {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+    position: relative;
+}
+.stage .container .stageContent .singleStage .singleStageInner button {
+    width: 246px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #E2001C;
+    position: relative;
+}
+/* stage styles ends */
+
+
+
+
+
+
+/* playVid styles */
+.playVid {
+    padding: 80px 0;
+    padding-top: 150px;
+}
+.playVid .container .videoWrap {
+    width: 100%;
+    max-width: 1214px;
+    margin: 0 auto;
+    position: relative;
+}
+.playVid .container .videoWrap .videoItem {
+    width: 100%;
+}
+.playVid .container .videoWrap .videoPlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/* playVid styles ends */
+
+
+
+
+
+
+
+/* quote styles ends */
+.quote {
+    padding: 80px 0;
+}
+.quote .container .quoteWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.quote .container .quoteWrap .quoteLeft {
+    width: calc(50% - 100px);
+}
+.quote .container .quoteWrap .quoteLeft .quoteHeading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.quote .container .quoteWrap .quoteLeft .quoteInpWrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.quote .container .quoteWrap .quoteLeft .quoteInpWrap input {
+    width: calc(50% - 20px);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.quote .container .quoteWrap .quoteLeft .quoteInpWrap textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 186px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.quote .container .quoteWrap .quoteLeft button {
+    width: 158px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #E2001C;
+    color: #fff;
+}
+
+
+
+.quote .container .quoteWrap .quoteRight {
+    width: calc(50% - 60px);
+}
+.quote .container .quoteWrap .quoteRight .accordion {
+    width: 100%;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion {
+    width: 100%;
+    border: 1px solid;
+    transition: .3s;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading img {
+    position: relative;
+    rotate: 0deg;
+    transition: .3s;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion.active .accordionHeading img {
+    rotate: 90deg;
+}
+.quote .container .quoteWrap .quoteRight .accordion .singleAccordion p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(60, 60, 67, 0.85);
+    padding: 15px;
+    padding-top: 0;
+}
+/* quote styles ends */
+
+
+
+
+
+
+/* showCase styles */
+.showCase {
+    margin: 80px 0;
+    margin-bottom: 50px;
+}
+.showCase .swiper {
+    width: 100%;
+}
+.showCase .swiper .swiper-slide {
+    width: fit-content;
+}
+/* showCase styles ends */
+
+
+
+
+
+
+
+/* footer styles */
+footer {
+    padding-bottom: 35px;
+}
+footer .container .footerHeading {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 110px;
+}
+footer .container .footerHeading span {
+    color: #E2001C;
+}
+footer .container .footerContent ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+footer .container .footerContent ul li {
+    margin: 0 16px;
+}
+footer .container .footerContent ul li a {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+footer .container .footerContent .footerSocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+footer .container .footerContent .footerSocial a {
+    margin: 0 10px;
+}
+footer .container .footerContent .footerCopyright {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+/* footer styles ends */
+
+
+/* first page styles ends */
+
+
+
+
+
+
+
+/* team page styles */
+
+
+/* teamBanner styles */
+.teamBanner {
+    padding: 130px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(../images/technicial-team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.teamBanner .container h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+/* teamBanner styles ends */
+
+
+
+
+/* crew styles */
+.crew {
+    padding: 90px 0;
+    padding-bottom: 150px;
+}
+.crew .container h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 90px;
+}
+.crew .container .crewWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.crew .container .crewWrap .singleCrew {
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 60px;
+}
+.crew .container .crewWrap .singleCrew img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.crew .container .crewWrap .singleCrew .crewInfo h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.crew .container .crewWrap .singleCrew .crewInfo p {
+    font-size: 24px;
+    font-weight: 400;
+}
+/* crew styles ends */
+
+
+/* team page styles ends */
+
+
+
+
+
+
+
+
+
+/* blog page styles */
+.blogContent {
+    padding-bottom: 90px;
+}
+.blogContent .container .singleBlog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0;
+    padding-top: 90px;
+    position: relative;
+}
+.blogContent .container .singleBlog::after {
+    width: calc(100% - 400px);
+    height: 1px;
+    background-color: #00000095;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.blogContent .container .singleBlog .blogLeft {
+    width: 50%;
+    padding-right: 100px;
+}
+.blogContent .container .singleBlog .blogLeft img {
+    max-width: 100%;
+}
+.blogContent .container .singleBlog .blogRight {
+    width: 50%;
+}
+.blogContent .container .singleBlog .blogRight h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.blogContent .container .singleBlog .blogRight p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 35px;
+}
+.blogContent .container .singleBlog .blogRight button {
+    width: 246px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E2001C;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* blog page styles ends */
+
+
+
+
+
+
+
+/* blog-single page styles */
+.blogSingle {
+    padding: 80px 0;
+}
+.blogSingle .container img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.blogSingle .container h1 {
+    max-width: 1400px;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.blogSingle .container p {
+    max-width: 1300px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: #3D4048;
+    margin: 0 auto;
+}
+/* blog-single page styles ends */
+
+
+
+
+
+
+
+
+/* video-assist page styles */
+
+/* clientFav styles */
+.clientFav {
+    padding: 80px 0;
+}
+.clientFav .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.clientFav .container .clientFavWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.clientFav .container .clientFavWrap .clientSingleFav {
+    width: calc(100% / 3 - 20px);
+    max-width: 506px;
+    height: 401px;
+    border: 1px solid #E2001C;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clientFav .container .clientFavWrap .clientSingleFav img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+/* clientFav styles ends */
+
+
+
+
+
+/* teleVid styles */
+.teleVid {
+    padding: 80px 0;
+}
+.teleVid .teleVidWrap {
+    width: 100%;
+    height: 918px;
+    position: relative;
+    overflow: hidden;
+}
+.teleVid .teleVidWrap::after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: linear-gradient(359.34deg, #000000 3.92%, rgba(245, 245, 245, 0) 98.23%);
+    z-index: 1;
+}
+.teleVid .teleVidWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.teleVid .teleVidWrap .teleVidPlay {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+.teleVid .teleVidWrap .teleVidPlay img {
+    width: fit-content;
+    height: unset;
+    margin-bottom: 45px;
+}
+.teleVid .teleVidWrap .teleVidPlay span {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+/* teleVid styles ends */
+
+
+
+
+
+
+/* vidDifference styles */
+.vidDifference {
+    padding: 80px 0;
+}
+.vidDifference .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.vidDifference .container .diffWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vidDifference .container .diffWrap .singleDiff {
+    width: calc(100% / 3 - 20px);
+    max-width: 506px;
+    height: 401px;
+}
+.vidDifference .container .diffWrap .singleDiff:nth-child(2) {
+    height: fit-content;
+}
+.vidDifference .container .diffWrap .singleDiff .diffImg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E2001C;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.vidDifference .container .diffWrap .singleDiff .diffImg img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vidDifference .container .diffWrap .singleDiff h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.vidDifference .container .diffWrap .singleDiff p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+/* vidDifference styles ends */
+
+
+
+
+
+/* vibes styles */
+.vibes {
+    padding: 80px 0;
+}
+.vibes .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.vibes .container p {
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    margin-bottom: 100px;
+}
+.vibes .container .vibesWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.vibes .container .vibesWrap .singleVibes {
+    width: calc(100% / 3 - 20px);
+    max-width: 506px;
+    height: 401px;
+}
+.vibes .container .vibesWrap .singleVibes .vibesImg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E2001C;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.vibes .container .vibesWrap .singleVibes .vibesImg img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.vibes .container .vibesWrap .singleVibes h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+/* vibes styles ends */
+
+
+
+
+
+
+/* interro styles */
+.interro {
+    padding: 80px 0;
+}
+.interro .container .interroHeading {
+    margin-bottom: 80px;
+}
+.interro .container .interroHeading h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.interro .container .interroHeading p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.interro .container .infographics {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    height: 576px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAA8A8;
+}
+.interro .container .infographics p {
+    font-size: 36px;
+    font-weight: 400;
+}
+/* interro styles ends */
+
+
+
+
+
+
+/* otherConfig styles */
+.otherConfig {
+    padding: 80px 0;
+}
+.otherConfig .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.otherConfig .container p {
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    margin-bottom: 100px;
+}
+.otherConfig .container .configRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.otherConfig .container .configRow .singleConfig {
+    width: calc(100% / 3 - 20px);
+    max-width: 506px;
+    height: 401px;
+    margin: 0 40px;
+}
+.otherConfig .container .configRow .singleConfig .configImg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E2001C;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.otherConfig .container .configRow .singleConfig .configImg img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.otherConfig .container .configRow .singleConfig h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+/* otherConfig styles ends */
+
+
+
+
+
+
+
+/* roomMonitor styles */
+.roomMonitor {
+    padding: 80px 0;
+}
+.roomMonitor .container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.roomMonitor .container .monitorWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.roomMonitor .container .monitorWrap .singleMonitor {
+    width: calc(100% / 3 - 20px);
+    max-width: 506px;
+    height: 401px;
+    margin: 0 40px;
+}
+.roomMonitor .container .monitorWrap .singleMonitor .monitorImg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E2001C;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.roomMonitor .container .monitorWrap .singleMonitor .monitorImg img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.roomMonitor .container .monitorWrap .singleMonitor h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+/* roomMonitor styles ends */
+
+/* video-assist page styles ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive starts */
+@media (max-width: 1800px) {
+    /* first page */
+    .container {
+        max-width: 1400px;
+        padding: 10px 50px;
+    }
+    header .container img {
+        width: 190px;
+    }
+    header .container ul li a {
+        font-size: 20px;
+    }
+    header .container .headerRight button {
+        width: 190px;
+        font-size: 20px;
+    }
+    .banner {
+        height: 690px;
+        padding: 110px 0;
+    }
+    .banner .container h1 {
+        font-size: 50px;
+    }
+    .banner .container p {
+        font-size: 20px;
+    }
+
+
+
+    .consultation .container .consultationHeading span {
+        font-size: 15px;
+    }
+    .consultation .container .consultationHeading h2 {
+        font-size: 40px;
+    }
+    .consultation .container .consultationHeading p {
+        font-size: 20px;
+    }
+    .consultation .container .consultationHeading h3 {
+        font-size: 22px;
+    }
+    .consultation .container .consultationHeading button {
+        width: 190px;
+        font-size: 20px;
+    }
+    .consultation .container .consultationContent .consultLeft {
+        height: 600px;
+    }
+    .consultation .container .consultationContent .consultRight .consultSingle {
+        height: 275px;
+        font-size: 24px;
+    }
+
+    .work .container .workHeading h2 {
+        font-size: 40px;
+    }
+    .work .container .workHeading p {
+        font-size: 20px;
+    }
+    .work .container .workWrap .singleWork {
+        padding: 0 15px;
+    }
+    .work .container .workWrap .singleWork:nth-child(2) {
+        right: 0;
+    }
+    .work .container .workWrap .singleWork:nth-child(4) {
+        left: 0;
+    }
+    .work .container .workWrap .singleWork img {
+        width: 100%;
+    }
+
+
+
+    .info .container .infoSingle .infoText h3 {
+        font-size: 33px;
+    }
+    .info .container .infoSingle .infoText p {
+        font-size: 20px;
+    }
+    .info .container .infoSingle .infoText button {
+        width: 200px;
+        font-size: 20px;
+    }
+    
+
+
+    .stage .container .stageContent {
+        height: 560px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner h3 {
+        font-size: 33px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner p {
+        font-size: 20px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner button {
+        width: 200px;
+        font-size: 20px;
+    }
+
+
+
+    .playVid .container .videoWrap {
+        height: 650px;
+    }
+    .playVid .container .videoWrap .videoItem {
+        height: 100%;
+        object-fit: cover;
+    }
+    .playVid .container .videoWrap .videoPlay {
+        width: 190px;
+    }
+
+
+
+    .quote .container .quoteWrap .quoteLeft {
+        width: calc(50% - 50px);
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteHeading {
+        font-size: 33px;
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap input {
+        font-size: 15px;
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap textarea {
+        font-size: 15px;
+    }
+    .quote .container .quoteWrap .quoteLeft button {
+        width: 130px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading h3 {
+        font-size: 15px;
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion p {
+        font-size: 15px;
+    }
+
+
+
+    footer .container .footerHeading {
+        font-size: 33px;
+        margin-bottom: 70px;
+    }
+    footer .container .footerContent ul li a {
+        font-size: 20px;
+    }
+    /* first page ends */
+
+    
+    
+    
+    
+    /* third page */
+    .teamBanner .container h1 {
+        font-size: 50px;
+    }
+    .crew .container h2 {
+        font-size: 40px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo p {
+        font-size: 20px;
+    }
+    /* third page ends */
+    
+
+
+
+
+
+    /* fourth page */
+    .blogContent .container .singleBlog .blogRight h3 {
+        font-size: 33px;
+    }
+    .blogContent .container .singleBlog .blogRight p {
+        font-size: 20px;
+    }
+    .blogContent .container .singleBlog .blogRight button {
+        width: 200px;
+        font-size: 20px;
+    }
+    /* fourth page ends */
+
+
+
+
+
+    /* fifth page */
+    .blogSingle .container h1 {
+        font-size: 50px;
+    }
+    .blogSingle .container p {
+        font-size: 20px;
+    }
+    /* fifth page ends */
+
+
+
+
+
+
+    /* sixth page */
+    .consultation.videoConsult {
+        padding-bottom: 0;
+    }
+    .consultation.videoConsult .container .consultationHeading {
+        margin-bottom: 0;
+    }
+    .clientFav .container h2 {
+        font-size: 40px;
+    }
+
+    .teleVid .teleVidWrap .teleVidPlay span {
+        font-size: 30px;
+    }
+    .vidDifference .container h2 {
+        font-size: 40px;
+    }
+    .vidDifference .container .diffWrap .singleDiff p {
+        font-size: 20px;
+    }
+    .vidDifference .container .diffWrap .singleDiff h3 {
+        font-size: 20px;
+    }
+    .vibes .container h2 {
+        font-size: 40px;
+    }
+    .vibes .container p {
+        font-size: 20px;
+    }
+    .vibes .container .vibesWrap .singleVibes h3 {
+        font-size: 20px;
+    }
+    .interro .container .interroHeading h2 {
+        font-size: 40px;
+    }
+    .interro .container .interroHeading p {
+        font-size: 20px;
+    }
+
+    .interro .container .infographics {
+        height: 460px;
+    }
+    .interro .container .infographics p {
+        font-size: 32px;
+    }
+    .otherConfig .container h2 {
+        font-size: 40px;
+    }
+    .otherConfig .container p {
+        font-size: 20px;
+    }
+    .otherConfig .container .configRow .singleConfig h3 {
+        font-size: 20px;
+    }
+    .roomMonitor .container h2 {
+        font-size: 40px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor h3 {
+        font-size: 20px;
+    }
+    /* sixth page ends */
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    /* first page */
+    .container {
+        max-width: 1100px;
+    }
+    header .container img {
+        width: 150px;
+    }
+    header .container ul li a {
+        font-size: 16px;
+    }
+    header .container .headerRight button {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .banner {
+        height: 550px;
+    }
+    .banner .container h1 {
+        font-size: 45px;
+    }
+    .banner .container p {
+        font-size: 16px;
+    }
+
+
+
+    .consultation {
+        padding-bottom: 10px;
+    }
+    .consultation .container .consultationHeading h2 {
+        font-size: 36px;
+    }
+    .consultation .container .consultationHeading p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .consultation .container .consultationHeading h3 {
+        font-size: 19px;
+        margin-bottom: 40px;
+    }
+    .consultation .container .consultationHeading button {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .consultation .container .consultationContent .consultLeft {
+        height: 530px;
+    }
+    .consultation .container .consultationContent .consultRight {
+        width: calc(50% - 15px);
+    }
+    .consultation .container .consultationContent .consultRight .consultSingle {
+        width: calc(50% - 15px);
+        height: 247px;
+        margin-bottom: 35px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+
+
+    .work {
+        padding-bottom: 40px;
+    }
+    .work .container .workHeading {
+        margin-bottom: 40px;
+    }
+    .work .container .workHeading h2 {
+        font-size: 36px;
+    }
+    .work .container .workHeading p {
+        font-size: 16px;
+    }
+
+
+
+    .info .container .infoSingle .infoText h3 {
+        font-size: 30px;
+    }
+    .info .container .infoSingle .infoText p {
+        font-size: 16px;
+    }
+    .info .container .infoSingle .infoText button {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+
+
+    .stage .container .stageContent {
+        height: 450px;
+    }
+    .stage .container .stageContent::before {
+        height: calc(100% + 30px);
+        top: -90px;
+    }
+    .stage .container .stageContent::after {
+        height: calc(100% + 30px);
+        bottom: -90px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner h3 {
+        font-size: 29px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner p {
+        font-size: 16px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner button {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+
+
+    .playVid .container .videoWrap {
+        height: 550px;
+    }
+    .playVid .container .videoWrap .videoPlay {
+        width: 140px;
+    }
+
+
+    
+    .quote .container .quoteWrap .quoteLeft .quoteHeading {
+        font-size: 29px;
+    }
+    .quote .container .quoteWrap .quoteLeft {
+        width: calc(50% - 25px);
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap input {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap textarea {
+        font-size: 14px;
+    }
+    .quote .container .quoteWrap .quoteLeft button {
+        width: 110px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .quote .container .quoteWrap .quoteRight {
+        width: calc(50% - 25px);
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading h3 {
+        font-size: 14px;
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion p {
+        font-size: 14px;
+    }
+
+
+
+    .showCase .swiper .swiper-slide {
+        height: 300px;
+    }
+    .showCase .swiper .swiper-slide img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+
+    footer .container .footerHeading {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    footer .container .footerContent ul li a {
+        font-size: 16px;
+    }
+    footer .container .footerContent .footerSocial {
+        margin-bottom: 20px;
+    }
+    footer .container .footerContent .footerSocial a img {
+        width: 20px;
+    }
+    footer .container .footerContent .footerCopyright {
+        font-size: 11px;
+    }
+    /* first page ends */
+
+
+
+
+
+
+
+    /* third page */
+    .teamBanner .container h1 {
+        font-size: 45px;
+    }
+    .crew .container h2 {
+        font-size: 36px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo h3 {
+        font-size: 16px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo p {
+        font-size: 16px;
+    }
+    /* third page ends */
+
+
+
+
+    /* fourth page */
+    .blogContent .container .singleBlog .blogRight h3 {
+        font-size: 30px;
+    }
+    .blogContent .container .singleBlog .blogRight p {
+        font-size: 16px;
+    }
+    .blogContent .container .singleBlog .blogRight button {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .blogContent .container .singleBlog::after {
+        width: 100%;
+    }
+    /* fourth page ends */
+
+
+
+
+
+    /* fifth page */
+    .blogSingle .container h1 {
+        font-size: 45px;
+    }
+    .blogSingle .container p {
+        font-size: 16px;
+    }
+    /* fifth page ends */
+
+
+
+
+
+    /* sixth page */
+    .consultation.videoConsult .container .consultationHeading p {
+        margin-bottom: 0;
+    }
+    .clientFav {
+        padding-bottom: 0;
+    }
+    .clientFav .container h2 {
+        font-size: 36px;
+    }
+    .clientFav .container .clientFavWrap .clientSingleFav {
+        height: 250px;
+    }
+    .teleVid .teleVidWrap {
+        height: 700px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay img {
+        width: 100px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay span {
+        font-size: 28px;
+    }
+    .vidDifference {
+        padding-top: 0;
+    }
+    .vidDifference .container h2 {
+        font-size: 36px;
+    }
+    .vidDifference .container .diffWrap .singleDiff {
+        height: 250px;
+    }
+    .vidDifference .container .diffWrap .singleDiff p {
+        font-size: 16px;
+    }
+    .vidDifference .container .diffWrap .singleDiff h3 {
+        font-size: 16px;
+    }
+    .vibes .container h2 {
+        font-size: 36px;
+    }
+    .vibes .container p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .vibes .container .vibesWrap .singleVibes {
+        height: 250px;
+    }
+    .vibes .container .vibesWrap .singleVibes h3 {
+        font-size: 16px;
+    }
+    .interro {
+        padding-top: 30px;
+    }
+    .interro .container .interroHeading {
+        margin-bottom: 50px;
+    }
+    .interro .container .interroHeading h2 {
+        font-size: 36px;
+    }
+    .interro .container .interroHeading p {
+        font-size: 16px;
+    }
+
+    .interro .container .infographics {
+        width: 100%;
+        height: 460px;
+    }
+    .interro .container .infographics p {
+        font-size: 32px;
+    }
+    .otherConfig {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .otherConfig .container h2 {
+        font-size: 36px;
+    }
+    .otherConfig .container p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .otherConfig .container .configRow {
+        margin-bottom: 100px;
+    }
+    .otherConfig .container .configRow .singleConfig {
+        height: 250px;
+    }
+    .otherConfig .container .configRow .singleConfig h3 {
+        font-size: 16px;
+    }
+    .roomMonitor {
+        padding-bottom: 20px;
+    }
+    .roomMonitor .container h2 {
+        font-size: 36px;
+    }
+    .roomMonitor .container .monitorWrap {
+        margin-bottom: 50px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor {
+        height: 250px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor h3 {
+        font-size: 16px;
+    }
+    /* sixth page ends */
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+    /* first page */
+    .container {
+        max-width: 850px;
+    }
+    header .container img {
+        width: 120px;
+    }
+    header .container ul li {
+        margin: 0 10px;
+    }
+    header .container ul li a {
+        font-size: 14px;
+    }
+    header .container .headerRight button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+
+
+    .banner {
+        height: 480px;
+        padding: 80px 0;
+    }
+    .banner .container p {
+        font-size: 14px;
+    }
+
+
+
+    .consultation .container .consultationHeading span {
+        font-size: 13px;
+    }
+    .consultation .container .consultationHeading h2 {
+        font-size: 32px;
+    }
+    .consultation .container .consultationHeading p {
+        font-size: 14px;
+    }
+    .consultation .container .consultationHeading h3 {
+        font-size: 17px;
+    }
+    .consultation .container .consultationHeading button {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .consultation .container .consultationContent .consultRight {
+        width: calc(50% - 10px);
+    }
+    .consultation .container .consultationContent .consultLeft {
+        width: calc(50% - 10px);
+        height: 400px;
+    }
+    .consultation .container .consultationContent .consultRight .consultSingle {
+        width: calc(50% - 10px);
+        height: 190px;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+
+
+
+    .work .container .workHeading h2 {
+        font-size: 32px;
+    }
+    .work .container .workHeading p {
+        font-size: 14px;
+    }
+
+
+
+    .info .container .infoSingle .infoText h3 {
+        font-size: 27px;
+    }
+    .info .container .infoSingle .infoText {
+        padding-right: 50px;
+    }
+    .info .container .infoSingle:nth-child(2) .infoText {
+        padding-left: 50px;
+    }
+    .info .container .infoSingle .infoText p {
+        font-size: 14px;
+    }
+    .info .container .infoSingle .infoText button {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .info .container .infoSingle:last-child .infoImg {
+        width: calc(50% - 50px);
+    }
+    .info .container .infoSingle .infoImg .swiper-pagination .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+    .stage .container .stageContent {
+        height: 400px;
+    }
+    .stage .container .stageContent::before {
+        width: 100%;
+        height: 100%;
+        top: -40px;
+        left: -40px;
+    }
+    .stage .container .stageContent::after {
+        width: 100%;
+        height: 100%;
+        bottom: -40px;
+        right: -40px;
+    }
+    .stage .container .mySwiper4 .swiper-pagination .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner {
+        padding: 15px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner h3 {
+        font-size: 26px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner p {
+        font-size: 14px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner button {
+        width: 120px;
+        font-size: 14px;
+    }
+
+
+
+    .playVid .container .videoWrap {
+        height: 430px;
+    }
+    .playVid .container .videoWrap .videoPlay {
+        width: 100px;
+    }
+
+
+
+    .quote .container .quoteWrap .quoteLeft .quoteHeading {
+        font-size: 26px;
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap input {
+        font-size: 13px;
+    }
+    .quote .container .quoteWrap .quoteLeft .quoteInpWrap textarea {
+        font-size: 13px;
+    }
+    .quote .container .quoteWrap .quoteLeft button {
+        width: 100px;
+        font-size: 14px;
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion .accordionHeading h3 {
+        font-size: 13px;
+    }
+    .quote .container .quoteWrap .quoteRight .accordion .singleAccordion p {
+        font-size: 13px;
+    }
+
+
+
+    footer .container .footerHeading {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    footer .container .footerContent ul {
+        margin-bottom: 20px;
+    }
+    footer .container .footerContent ul li a {
+        font-size: 14px;
+    }
+    /* first page ends */
+
+
+
+
+
+    /* third page */
+    .teamBanner .container h1 {
+        font-size: 40px;
+    }
+    .crew {
+        padding-bottom: 40px;
+    }
+    .crew .container h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo h3 {
+        font-size: 14px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo p {
+        font-size: 14px;
+    }
+    /* third page ends */
+
+
+
+
+    /* fourth page */
+    .blogContent .container .singleBlog .blogLeft {
+        padding-right: 50px;
+    }
+    .blogContent .container .singleBlog .blogRight h3 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .blogContent .container .singleBlog .blogRight p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .blogContent .container .singleBlog .blogRight button {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+    /* fourth page ends */
+
+
+
+
+
+    /* fifth page */
+    .blogSingle .container h1 {
+        font-size: 40px;
+    }
+    .blogSingle .container p {
+        font-size: 14px;
+    }
+    /* fifth page ends */
+
+
+
+
+
+
+
+    /* sixth page */
+    .clientFav .container h2 {
+        font-size: 32px;
+    }
+    .clientFav .container .clientFavWrap .clientSingleFav {
+        height: 200px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay img {
+        width: 90px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay span {
+        font-size: 25px;
+    }
+    .vidDifference .container h2 {
+        font-size: 32px;
+    }
+    .vidDifference .container .diffWrap .singleDiff {
+        height: 200px;
+    }
+    .vidDifference .container .diffWrap .singleDiff p {
+        font-size: 14px;
+    }
+    .vidDifference .container .diffWrap .singleDiff h3 {
+        font-size: 14px;
+    }
+    .vibes .container h2 {
+        font-size: 32px;
+    }
+    .vibes .container p {
+        font-size: 14px;
+    }
+    .vibes .container .vibesWrap .singleVibes {
+        height: 200px;
+    }
+    .vibes .container .vibesWrap .singleVibes h3 {
+        font-size: 14px;
+    }
+    .interro .container .interroHeading h2 {
+        font-size: 32px;
+    }
+    .interro .container .interroHeading p {
+        font-size: 14px;
+    }
+
+    .interro .container .infographics {
+        height: 460px;
+    }
+    .interro .container .infographics p {
+        font-size: 32px;
+    }
+    .otherConfig .container h2 {
+        font-size: 32px;
+    }
+    .otherConfig .container p {
+        font-size: 14px;
+    }
+    .otherConfig .container .configRow .singleConfig {
+        height: 200px;
+    }
+    .otherConfig .container .configRow .singleConfig h3 {
+        font-size: 14px;
+    }
+    .roomMonitor .container h2 {
+        font-size: 32px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor {
+        height: 200px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor h3 {
+        font-size: 14px;
+    }
+    /* sixth page ends */
+}
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+    /* first page */
+    .container {
+        max-width: 600px;
+    }
+    header .container ul {
+        position: fixed;
+        background-color: #000;
+        color: #fff;
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        left: -260px;
+        transition: .3s;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 75px 25px;
+        z-index: 100;
+    }
+    header .container ul.active {
+        left: 0;
+    }
+    header .container ul li {
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    header .container .headerRight button {
+        font-size: 13px;
+    }
+    header .container .headerRight i {
+        display: block;
+    }
+
+
+
+
+    .banner {
+        height: 360px;
+    }
+    .banner .container h1 {
+        font-size: 36px;
+    }
+    .banner .container p {
+        font-size: 13px;
+    }
+
+
+
+    .consultation .container .consultationHeading span {
+        font-size: 12px;
+    }
+    .consultation .container .consultationHeading h2 {
+        font-size: 29px;
+    }
+    .consultation .container .consultationHeading p {
+        font-size: 13px;
+    }
+    .consultation .container .consultationHeading h3 {
+        font-size: 13px;
+    }
+    .consultation .container .consultationHeading button {
+        font-size: 13px;
+    }
+
+    .consultation .container .consultationContent {
+        flex-direction: column;
+    }
+    .consultation .container .consultationContent .consultLeft {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .consultation .container .consultationContent .consultRight {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    .work .container .workHeading h2 {
+        font-size: 29px;
+    }
+    .work .container .workHeading p {
+        font-size: 13px;
+    }
+
+
+
+    .info .container .infoSingle {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .info .container .infoSingle:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .info .container .infoSingle:last-child {
+        margin-top: 100px;
+    }
+    .info .container .infoSingle .infoText {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    .info .container .infoSingle:nth-child(2) .infoText {
+        padding: 0;
+    }
+    .info .container .infoSingle .infoText h3 {
+        font-size: 23px;
+    }
+    .info .container .infoSingle .infoText p {
+        font-size: 13px;
+    }
+    .info .container .infoSingle .infoText button {
+        font-size: 13px;
+    }
+    .info .container .infoSingle .infoImg {
+        width: 100%;
+    }
+    .info .container .infoSingle:last-child .infoImg {
+        width: 100%;
+        height: 550px;
+    }
+    .info .container .infoSingle:last-child .infoImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .stage .container .stageContent {
+        width: calc(100% - 50px);
+    }
+    .stage .container .stageContent .singleStage .singleStageInner h3 {
+        font-size: 24px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner p {
+        font-size: 13px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner button {
+        font-size: 13px;
+    }
+
+
+
+    .playVid {
+        padding: 50px 0;
+    }
+    .playVid .container .videoWrap {
+        height: 350px;
+    }
+    .playVid .container .videoWrap .videoPlay {
+        width: 85px;
+    }
+
+
+
+    .quote .container .quoteWrap {
+        flex-direction: column;
+    }
+    .quote .container .quoteWrap .quoteLeft {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .quote .container .quoteWrap .quoteRight {
+        width: 100%;
+    }
+
+
+
+    .showCase .swiper .swiper-slide {
+        height: 230px;
+    }
+
+
+
+    footer .container .footerHeading {
+        font-size: 23px;
+    }
+    footer .container .footerContent ul {
+        flex-wrap: wrap;
+    }
+    footer .container .footerContent ul li {
+        margin: 8px;
+    }
+    footer .container .footerContent ul li a {
+        font-size: 13px;
+    }
+    /* first page */
+
+
+
+
+    /* third page */
+    .teamBanner .container h1 {
+        font-size: 36px;
+    }
+    .crew .container h2 {
+        font-size: 29px;
+    }
+    .crew .container .crewWrap .singleCrew {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo h3 {
+        font-size: 13px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo p {
+        font-size: 13px;
+    }
+    /* third page ends */
+
+
+
+
+
+    /* fourth page */
+    .blogContent .container .singleBlog .blogLeft {
+        padding-right: 20px;
+    }
+    .blogContent .container .singleBlog .blogRight h3 {
+        font-size: 23px;
+    }
+    .blogContent .container .singleBlog .blogRight p {
+        font-size: 13px;
+    }
+    .blogContent .container .singleBlog .blogRight button {
+        width: 120px;
+        font-size: 13px;
+    }
+    /* fourth page ends */
+
+
+
+
+
+    /* fifth page */
+    .blogSingle .container h1 {
+        font-size: 36px;
+    }
+    .blogSingle .container p {
+        font-size: 13px;
+    }
+    /* fifth page ends */
+
+
+
+
+
+
+
+    /* sixth page */
+    .clientFav .container h2 {
+        font-size: 29px;
+    }
+    .clientFav .container .clientFavWrap .clientSingleFav {
+        height: 180px;
+        padding: 0;
+    }
+    .teleVid .teleVidWrap .teleVidPlay img {
+        width: 80px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay span {
+        font-size: 23px;
+    }
+    .vidDifference .container h2 {
+        font-size: 29px;
+    }
+    .vidDifference .container .diffWrap .singleDiff {
+        height: 180px;
+        padding: 0;
+    }
+    .vidDifference .container .diffWrap .singleDiff p {
+        font-size: 13px;
+    }
+    .vidDifference .container .diffWrap .singleDiff h3 {
+        font-size: 13px;
+    }
+    .vibes .container h2 {
+        font-size: 29px;
+    }
+    .vibes .container p {
+        font-size: 13px;
+    }
+    .vibes .container .vibesWrap .singleVibes {
+        height: 180px;
+        padding: 0;
+    }
+    .vibes .container .vibesWrap .singleVibes h3 {
+        font-size: 13px;
+    }
+    .interro .container .interroHeading h2 {
+        font-size: 29px;
+    }
+    .interro .container .interroHeading p {
+        font-size: 13px;
+    }
+
+    .interro .container .infographics {
+        height: 300px;
+    }
+    .interro .container .infographics p {
+        font-size: 29px;
+    }
+    .otherConfig .container h2 {
+        font-size: 29px;
+    }
+    .otherConfig .container p {
+        font-size: 13px;
+    }
+    .otherConfig .container .configRow .singleConfig {
+        height: 180px;
+        padding: 0;
+        margin: 0 25px;
+    }
+    .otherConfig .container .configRow .singleConfig h3 {
+        font-size: 13px;
+    }
+    .roomMonitor .container h2 {
+        font-size: 29px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor {
+        height: 180px;
+        padding: 0;
+        margin: 0 25px;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor h3 {
+        font-size: 13px;
+    }
+    /* sixth page ends */
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    /* first page */
+    .container {
+        padding: 10px 25px;
+    }
+    header .container img {
+        width: 100px;
+    }
+    header .container .headerRight button {
+        width: 80px;
+        height: 32px;
+    }
+    header .container .headerRight i {
+        font-size: 22px;
+    }
+
+
+
+    .banner .container h1 {
+        font-size: 32px;
+    }
+    .consultation .container .consultationHeading h2 {
+        font-size: 26px;
+    }
+    .consultation .container .consultationHeading button {
+        width: 100px;
+        height: 32px;
+    }
+    
+    .consultation .container .consultationContent .consultRight .consultSingle {
+        font-size: 14px;
+    }
+    .work .container .workHeading h2 {
+        font-size: 26px;
+    }
+
+
+
+    .info .container .infoSingle .infoText h3 {
+        font-size: 22px;
+    }
+    .info .container .infoSingle .infoText button {
+        width: 100px;
+        height: 32px;
+    }
+    .stage .container .stageContent {
+        width: 100%;
+    }
+
+
+
+    .stage .container .stageContent .singleStage .singleStageInner h3 {
+        font-size: 22px;
+    }
+    .stage .container .stageContent .singleStage .singleStageInner button {
+        width: 100px;
+    }
+
+
+
+    .quote .container .quoteWrap .quoteLeft .quoteHeading {
+        font-size: 24px;
+    }
+    .quote .container .quoteWrap .quoteLeft button {
+        height: 35px;
+    }
+
+
+
+    footer .container .footerHeading {
+        font-size: 21px;
+    }
+    /* first page ends */
+
+
+
+
+
+    /* third page */
+    .teamBanner {
+        padding: 70px 0;
+    }
+    .teamBanner .container h1 {
+        font-size: 32px;
+    }
+    .crew .container h2 {
+        font-size: 26px;
+    }
+    .crew .container .crewWrap .singleCrew {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo h3 {
+        font-size: 13px;
+    }
+    .crew .container .crewWrap .singleCrew .crewInfo p {
+        font-size: 13px;
+    }
+    /* third page ends */
+
+
+
+
+
+    /* fourth page */
+    .blogContent .container .singleBlog {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+    .blogContent .container .singleBlog .blogLeft {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .blogContent .container .singleBlog .blogRight {
+        width: 100%;
+    }
+    /* fourth page ends */
+
+
+
+
+
+    /* fifth page */
+    .blogSingle .container h1 {
+        font-size: 32px;
+    }
+    /* fifth page ends */
+
+
+
+
+
+
+
+    /* sixth page */
+    .clientFav .container h2 {
+        font-size: 26px;
+    }
+    .clientFav .container .clientFavWrap {
+        flex-direction: column;
+    }
+    .clientFav .container .clientFavWrap .clientSingleFav {
+        width: 100%;
+        height: 330px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay img {
+        width: 80px;
+    }
+    .teleVid .teleVidWrap .teleVidPlay span {
+        font-size: 23px;
+    }
+    .vidDifference .container h2 {
+        font-size: 26px;
+    }
+    .vidDifference .container .diffWrap {
+        flex-direction: column;
+    }
+    .vidDifference .container .diffWrap .singleDiff {
+        height: 330px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    .vibes .container h2 {
+        font-size: 26px;
+    }
+    .vibes .container .vibesWrap {
+        flex-direction: column;
+    }
+    .vibes .container .vibesWrap .singleVibes {
+        height: 330px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    .interro .container .interroHeading h2 {
+        font-size: 26px;
+    }
+
+    .interro .container .infographics {
+        height: 200px;
+    }
+    .interro .container .infographics p {
+        font-size: 22px;
+    }
+    .otherConfig .container h2 {
+        font-size: 26px;
+    }
+    .otherConfig .container .configRow {
+        flex-direction: column;
+    }
+    .otherConfig .container .configRow .singleConfig {
+        height: 330px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    .roomMonitor .container h2 {
+        font-size: 26px;
+    }
+    .roomMonitor .container .monitorWrap {
+        flex-direction: column;
+    }
+    .roomMonitor .container .monitorWrap .singleMonitor {
+        height: 330px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    /* sixth page ends */
+
+}
+/* responsive ends */

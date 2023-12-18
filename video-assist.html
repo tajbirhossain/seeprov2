@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+        integrity="sha512-rd0qOHVMOcez6pLWPVFIv7EfSdGKLt+eafXh4RO/12Fgr41hDQxfGvoi1Vy55QIVcQEujUE1LQrATCLl2Fs+ag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="overlay"></div>
+            <img src="assets/images/logo.svg" alt="seepro logo">
+            <ul>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="#">video assist</a>
+                </li>
+                <li>
+                    <a href="#">teleprompter</a>
+                </li>
+                <li>
+                    <a href="#">production</a>
+                </li>
+            </ul>
+            <div class="headerRight">
+                <button>contact</button>
+                <i class="fa-solid fa-bars" onclick="menuToggle()"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="teamBanner">
+            <div class="container">
+                <h1>TELEPROMPTER SERVICES</h1>
+            </div>
+        </section>
+
+        <section class="consultation videoConsult">
+            <div class="container">
+                <div class="consultationHeading">
+                    <span>INNOVATIVE APPROACHES TAILORED TO YOUR VISION</span>
+                    <h2>Custom Solutions for Every Scene</h2>
+                    <p>
+                        Our team of professionals is well-versed in the nuances of various industries, from
+                        <span>broadcast television</span> to <span>corporate presentations</span> and
+                        <span>live events</span>.
+                        We have witnessed and adapted to the
+                        evolving technology and changing demands of the entertainment and communication landscape. Our
+                        extensive experience equips us with a deep understanding of the challenges you may face, and we
+                        are well-prepared to provide tailored solutions that meet your specific needs.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="clientFav">
+            <div class="container">
+                <h2>Client Favorites</h2>
+                <div class="clientFavWrap">
+                    <div class="clientSingleFav">
+                        <img src="assets/images/fav1.png" alt="">
+                    </div>
+                    <div class="clientSingleFav">
+                        <img src="assets/images/fav2.png" alt="">
+                    </div>
+                    <div class="clientSingleFav">
+                        <img src="assets/images/fav3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="teleVid">
+            <div class="teleVidWrap">
+                <img src="assets/images/televid.png" alt="">
+                <div class="teleVidPlay">
+                    <img src="assets/images/play-slim.svg" alt="">
+                    <span>Presidential Teleprompters</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="vidDifference">
+            <div class="container">
+                <h2>What's the difference between presidential and Auto rise?</h2>
+                <div class="diffWrap">
+                    <div class="singleDiff">
+                        <div class="diffImg">
+                            <img src="assets/images/diff1.png" alt="">
+                        </div>
+                        <h3>STANDARD PRESIDENTIAL</h3>
+                    </div>
+                    <div class="singleDiff">
+                        <p>
+                            Auto rise, moves as needed and is great for multiple speakers. Presidential remains fixed in
+                            one spot, so you can set your height and go! Both are great options for live events.
+                        </p>
+                    </div>
+                    <div class="singleDiff">
+                        <div class="diffImg">
+                            <img src="assets/images/diff2.png" alt="">
+                        </div>
+                        <h3>AUTO RISE PRESIDENTIAL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="vibes">
+            <div class="container">
+                <h2>VIDEO SHOOT VIBES</h2>
+                <p>
+                    For video shoots we provide teleprompters that have the ability to work both on camera and off. That
+                    way, no matter how complex the shoot, you have the ability to get creative with your set up.
+                </p>
+                <div class="vibesWrap">
+                    <div class="singleVibes">
+                        <div class="vibesImg">
+                            <img src="assets/images/vibes1.png" alt="">
+                        </div>
+                        <h3>15” PACKAGE</h3>
+                    </div>
+                    <div class="singleVibes">
+                        <div class="vibesImg">
+                            <img src="assets/images/vibes1.png" alt="">
+                        </div>
+                        <h3>19” PACKAGE</h3>
+                    </div>
+                    <div class="singleVibes">
+                        <div class="vibesImg">
+                            <img src="assets/images/vibes1.png" alt="">
+                        </div>
+                        <h3>21” PACKAGE</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interro">
+            <div class="container">
+                <div class="interroHeading">
+                    <h2>INTERROTRON</h2>
+                    <p>Need to figure out how to explain what this is</p>
+                </div>
+                <div class="infographics">
+                    <p>INFOGRAPHIC</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="otherConfig">
+            <div class="container">
+                <h2>OTHER CONFIGURATION </h2>
+                <p>
+                    What’s the difference between presidential and Auto rise? Auto rise, moves as needed and is great
+                    for multiple speakers. Presidential remains fixed in one spot, so you can set your height and go!
+                    Both are great options for live events.
+                </p>
+                <div class="configRow">
+                    <div class="singleConfig">
+                        <div class="configImg">
+                            <img src="assets/images/config1.png" alt="">
+                        </div>
+                        <h3>OVER THE SHOULDER</h3>
+                    </div>
+                    <div class="singleConfig">
+                        <div class="configImg">
+                            <img src="assets/images/config2.png" alt="">
+                        </div>
+                        <h3>MONOPOD</h3>
+                    </div>
+                </div>
+                <div class="configRow">
+                    <div class="singleConfig">
+                        <div class="configImg">
+                            <img src="assets/images/config3.png" alt="">
+                        </div>
+                        <h3>OVER THE CAMERA JIB CONFIGURATION</h3>
+                    </div>
+                    <div class="singleConfig">
+                        <div class="configImg">
+                            <img src="assets/images/config4.png" alt="">
+                        </div>
+                        <h3>DUAL CAMERA CONFIGURATION</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="roomMonitor">
+            <div class="container">
+                <h2>NEWS ROOM MONITORS</h2>
+                <div class="monitorWrap">
+                    <div class="singleMonitor">
+                        <div class="monitorImg">
+                            <img src="assets/images/monitor1.png" alt="">
+                        </div>
+                        <h3>PRESIDENTIAL</h3>
+                    </div>
+                    <div class="singleMonitor">
+                        <div class="monitorImg">
+                            <img src="assets/images/monitor2.png" alt="">
+                        </div>
+                        <h3>PRESIDENTIAL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote">
+            <div class="container">
+                <div class="quoteWrap">
+                    <form class="quoteLeft">
+                        <h2 class="quoteHeading">GET A QUOTE</h2>
+                        <div class="quoteInpWrap">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <div class="quoteInpWrap">
+                            <input type="text" placeholder="Phone">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="quoteInpWrap">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button>SUBMIT</button>
+                    </form>
+                    <div class="quoteRight">
+                        <div class="accordion">
+                            <div class="singleAccordion active">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                            <div class="singleAccordion">
+                                <div class="accordionHeading">
+                                    <h3>Where can I watch?</h3>
+                                    <img src="assets/images/arrow-accordion.svg" alt="">
+                                </div>
+                                <p>
+                                    Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci,
+                                    dictumst nec aliquet id ullamcorper venenatis. Fermentum sulla craspor ttitore ismod
+                                    nulla.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showCase">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/veg-market.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/producer-shot.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/film-shot.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/veg-market.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/producer-shot.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/film-shot.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2 class="footerHeading"><span>@</span>SEEPROSERVICES</h2>
+            <div class="footerContent">
+                <ul>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="#">video assist</a>
+                    </li>
+                    <li>
+                        <a href="#">teleprompter</a>
+                    </li>
+                    <li>
+                        <a href="#">production</a>
+                    </li>
+                </ul>
+                <div class="footerSocial">
+                    <a href="#">
+                        <img src="assets/images/facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/instagram.png" alt="">
+                    </a>
+                </div>
+                <p class="footerCopyright">&copy; 2023 See Production Services</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            spaceBetween: 0,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
