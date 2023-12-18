@@ -837,6 +837,12 @@ footer .container .footerContent .footerCopyright {
 
 
 /* video-assist page styles */
+/* videoAssistBanner styles */
+.videoAssistBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(../images/vidAssist.png);
+}
+/* videoAssistBanner styles ends */
+
 
 /* clientFav styles */
 .clientFav {
